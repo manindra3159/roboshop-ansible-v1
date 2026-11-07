@@ -32,7 +32,7 @@
     loop: "{{  ec2_output.results }}"
     when: action == "create"
 
-    - name: create R53 record 
+  - name: create R53 record 
     amazon.aws.route53:
        state: present 
        zone: "{{ domain_name }}"
@@ -54,7 +54,7 @@
     loop: "{{ instances }}"
     when: action == "delete"
 
-    - name: delete R53 record
+  - name: delete R53 record
     amazon.aws.route53:
        state: absent 
        zone: "{{ domain_name }}"
