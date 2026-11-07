@@ -30,8 +30,8 @@
 
     - name: remove shipping.zip
       file:
-      path: /tmp/shipping.zip
-      state: absent
+        path: /tmp/shipping.zip
+        state: absent
 
     - name: create app directory
       file:
