@@ -1,3 +1,16 @@
 mysql_root_password: RoboShop@1
 ansible_user: ec2-user
 ansible_password: DevOps321
+mongodb_host: mongodb.mani315.store
+redis_host: redis.mani315.store
+mysql_host: mysql.mani315.store
+rabbitmq_host: rabbitmq.mani315.store
+catalogue_host: catalogue.mani315.store
+user_host: user.mani315.store
+cart_host: cart.mani315.store
+shipping_host: shipping.mani315.store
+payment_host: payment.mani315.store
+shipping_db_user: shipping
+shipping_db_password: RoboShop@1
+rabbitmq_user: roboshop
+rabbitmq_password: roboshop123
